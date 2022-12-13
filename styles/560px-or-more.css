@@ -1,0 +1,53 @@
+@media only screen and (max-width: 560px){
+    /*nav*/
+    #main-nav ul li{
+        padding: .4em;
+    }
+
+    #main-nav ul li a{
+        font-size: 20px;
+        padding: .2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    /*header*/
+    #main-header{
+        padding: 0%;
+    }
+
+    #main-header h1{
+        font-size: 110px;
+    }
+
+    /*main content*/
+    #main-content{
+        padding: 2em;
+        display: block;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-content figure{
+        float: none;
+        width: 80%;
+        margin-left: 3em;
+        padding-bottom: 3em;
+    }
+
+    /*aside*/
+    #main-content aside{
+        padding: 3em;
+        width: 100%;
+    }
+
+    /*footer*/
+    footer{
+        padding: 1em;
+    }
+
+    #social-nav ul li img{
+        width: 50px;
+    }
+}

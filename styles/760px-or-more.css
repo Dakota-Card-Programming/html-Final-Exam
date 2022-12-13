@@ -1,0 +1,28 @@
+@media only screen and (max-width: 760px){
+    /*header*/
+    #main-header h1{
+        font-size: 36px;
+    }
+
+    #main-header h2{
+        font-size: 20px;
+    }
+
+    /*main*/
+    #main-content{
+        width: 100%;
+        display: block;
+        padding: 1.5em;
+        padding-top: 4em;
+    }
+
+    /*aside*/
+    #main-content aside{
+        padding-top: 2em;
+        margin-right: 2em;
+    }
+
+    #main-content ul{
+        width: 100%;
+    }
+}

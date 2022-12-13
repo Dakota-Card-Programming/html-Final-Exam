@@ -1,0 +1,135 @@
+@import url(./reset.css);
+
+    /* NAVIGATION */
+    #main-nav{
+        background-color: #2e2c27;
+    }
+
+    #main-nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main-nav ul li{
+        padding: 1.6em;
+    }
+
+    #main-nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        padding: 1em;
+    }
+
+    #main-nav ul li a:hover{
+        background-color: #fff;
+        color: #333231;
+        transition: .5s;
+    }
+
+
+    /* HEADER */
+    #main-header{
+        background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 7em;
+    }
+
+    #main-header h1, h2{
+        text-align: center;
+    }
+
+    #main-header h1{
+        font-size: 60px;
+        padding-bottom: .3em;
+        color: #fff;
+    }
+
+    #main-header h2{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    /* MAIN CONTENT */
+    #main-content{
+        display: flex;
+        padding-top: 4em;
+    }
+
+    #main-content figure{
+        float: left;
+        width: 20%;
+        margin-right: 1em;
+    }
+
+    #main-content p{
+        text-align: justify;
+    }
+
+    #main-content cite a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #main-content cite a:hover{
+        text-decoration: underline;
+        color: #5c6cfa;
+    }
+
+    /* ASIDE */
+    #main-content aside{
+        padding-left: 5em;
+        padding-bottom: 2em;
+    }
+
+    #main-content aside h2{
+        font-size: 30px;
+        padding: 1em;
+    }
+
+    #main-content aside ul li{
+        padding: 2em;
+    }
+
+    #main-content aside ul li strong{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #main-content aside ul li:nth-child(even){
+        background-color: #e6e5e3;
+    }
+
+    #main-content aside > h2{
+        background-color: #e6e5e3;
+    }
+
+    /* FOOTER */
+    footer{
+        background-color: #2e2c27;
+        padding: 2em;
+    }
+
+    #social-nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #social-nav ul li{
+        padding: .5em;
+    }
+
+    #social-nav ul li img{
+        width: 70px;
+    }
+
+    footer p{
+        color: #fff;
+        text-align: center;
+        padding-top: 2em;
+    }
+
+
